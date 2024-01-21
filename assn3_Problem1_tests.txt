@@ -1,0 +1,135 @@
+Problem 1 Assignment 3 Visible Tests
+====================================
+
+Test 1
+Input:
+------
+Equipment 1
+Ruby opens Red
+Setup 1
+Red contains EXIT
+Search 2
+Red found
+Ruby found
+
+Output:
+-------
+Have Red box
+Check Red box
+Have Ruby key
+Check Ruby key
+Unlock Red box with Ruby key
+Open Red box
+Have Escaped!
+
+Test 2
+Input:
+------
+Equipment 2
+Ruby opens Red
+Gold opens Yellow
+Setup 2
+Red contains Yellow
+Yellow contains EXIT
+Search 3
+Gold found
+Red found
+Ruby found
+
+Output:
+-------
+Have Gold key
+Check Gold key
+Have Red box
+Check Red box
+Have Ruby key
+Check Ruby key
+Unlock Red box with Ruby key
+Open Red box
+Have Yellow box
+Check Yellow box
+Unlock Yellow box with Gold key
+Open Yellow box
+Have Escaped!
+
+
+Test 3
+Input:
+------
+Equipment 3
+Ruby opens Red
+Silver opens Grey
+Amethyst opens Purple
+Setup 3
+Red contains Purple
+Purple contains Silver
+Grey contains EXIT
+Search 4
+Red found
+Ruby found
+Grey found
+Amethyst found
+
+
+Output:
+-------
+Have Red box
+Check Red box
+Have Ruby key
+Check Ruby key
+Unlock Red box with Ruby key
+Open Red box
+Have Purple box
+Check Purple box
+Have Grey box
+Check Grey box
+Have Amethyst key
+Check Amethyst key
+Unlock Purple box with Amethyst key
+Open Purple box
+Have Silver key
+Check Silver key
+Unlock Grey box with Silver key
+Open Grey box
+Have Escaped!
+
+
+Test 4
+Input:
+------
+Equipment 3
+Ruby opens Red
+Emerald opens Green
+Sapphire opens Blue
+Setup 3
+Blue contains Green
+Red contains Sapphire
+Green contains EXIT
+Search 4
+Blue found
+Ruby found
+Emerald found
+Red found
+
+Output:
+-------
+Have Blue box
+Check Blue box
+Have Ruby key
+Check Ruby key
+Have Emerald key
+Check Emerald key
+Have Red box
+Check Red box
+Unlock Red box with Ruby key
+Open Red box
+Have Sapphire key
+Check Sapphire key
+Unlock Blue box with Sapphire key
+Open Blue box
+Have Green box
+Check Green box
+Unlock Green box with Emerald key
+Open Green box
+Have Escaped!
+

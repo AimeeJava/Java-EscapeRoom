@@ -1,0 +1,153 @@
+Problem 2 Assignment 3 Visible Tests
+====================================
+
+Test 1
+Input:
+------
+Equipment 2
+Ruby opens Red
+White room
+Setup 3
+White contains Ruby
+White contains Red
+Red contains EXIT
+Search 1
+White found
+
+Output:
+-------
+Have Ruby key from White room
+Have Red box from White room
+Check Ruby key
+Unlock Red box with Ruby key
+Open Red box
+Have Escaped!
+
+Test 2
+Input:
+------
+Equipment 6
+Ruby opens Red
+Saphire opens Blue
+Emerald opens Green
+White room
+Orange room
+Pink room
+Setup 6
+White contains Ruby
+Orange contains Saphire
+Pink contains Emerald
+Green contains EXIT
+Blue contains Green
+Red contains Blue
+Search 4
+Red found
+Orange found
+Pink found
+White found
+
+Output:
+-------
+Have Red box
+Check Red box
+Have Saphire key from Orange room
+Check Saphire key
+Have Emerald key from Pink room
+Check Emerald key
+Have Ruby key from White room
+Check Ruby key
+Unlock Red box with Ruby key
+Open Red box
+Have Blue box
+Check Blue box
+Unlock Blue box with Saphire key
+Open Blue box
+Have Green box
+Check Green box
+Unlock Green box with Emerald key
+Open Green box
+Have Escaped!
+
+
+Test 3
+Input:
+------
+Equipment 3
+Ruby opens Red
+Emerald opens Green
+Sapphire opens Blue
+Setup 3
+Blue contains Green
+Red contains Sapphire
+Green contains EXIT
+Search 4
+Blue found
+Ruby found
+Emerald found
+Red found
+
+
+Output:
+-------
+Have Blue box
+Check Blue box
+Have Ruby key
+Check Ruby key
+Have Emerald key
+Check Emerald key
+Have Red box
+Check Red box
+Unlock Red box with Ruby key
+Open Red box
+Have Sapphire key
+Check Sapphire key
+Unlock Blue box with Sapphire key
+Open Blue box
+Have Green box
+Check Green box
+Unlock Green box with Emerald key
+Open Green box
+Have Escaped!
+
+
+Test 4
+Input:
+------
+Equipment 4
+Ruby opens Red
+Emerald opens Green
+Sapphire opens Blue
+White room
+Setup 5
+Blue contains Green
+Red contains Sapphire
+White contains Ruby
+Green contains EXIT
+White contains Emerald
+Search 3
+Blue found
+White found
+Red found
+
+Output:
+-------
+Have Blue box
+Check Blue box
+Have Ruby key from White room
+Have Emerald key from White room
+Check Ruby key
+Check Emerald key
+Have Red box
+Check Red box
+Unlock Red box with Ruby key
+Open Red box
+Have Sapphire key
+Check Sapphire key
+Unlock Blue box with Sapphire key
+Open Blue box
+Have Green box
+Check Green box
+Unlock Green box with Emerald key
+Open Green box
+Have Escaped!
+
